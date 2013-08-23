@@ -1,3 +1,6 @@
+puts 'AR OCTOPUS'
+puts '**********************************'
+puts $:
 require 'active_record'
 require 'active_support/version'
 require 'active_support/core_ext/class'
