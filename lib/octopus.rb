@@ -1,6 +1,7 @@
 puts 'AR OCTOPUS'
 puts '**********************************'
 puts $:
+STDOUT.flush
 require 'active_record'
 require 'active_support/version'
 require 'active_support/core_ext/class'
