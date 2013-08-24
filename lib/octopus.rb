@@ -1,6 +1,7 @@
-puts 'AR OCTOPUS'
+puts 'AR OCTOPUS STARTS'
 puts '**********************************'
 puts $:
+puts 'AR OCTOPUS ENDS'
 STDOUT.flush
 require 'active_record'
 require 'active_support/version'
